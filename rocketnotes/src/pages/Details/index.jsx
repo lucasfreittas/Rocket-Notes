@@ -1,4 +1,5 @@
 import { Container } from "./styles"; // Pegando estilo CSS
+import { Header } from "../../components/Header"; 
 import { Button } from "../../components/Button"; // Pegando o botão
 
 
@@ -6,12 +7,9 @@ export function Details(){ //Renderizando na pagina
   
   return(
     <Container> 
-      <h1>Hello World!</h1>
-      <span>Lucas de Freitas Simões</span>
+      <Header></Header>
+        <Button title="Voltar"/>
 
-      <Button title="Entrar" />
-      <Button title="Cadastrar" />
-      <Button title="Login" loading />
 
     </Container>
   )
