@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import { Button } from "../../components/Button"; // Pegando o botão
 import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tag";
+import { ButtonText } from "../../components/ButtonText";
 
 
 export function Details(){ //Renderizando na pagina
@@ -11,6 +12,7 @@ export function Details(){ //Renderizando na pagina
     <Container> 
       <Header/>
 
+        <ButtonText title="Excluir Nota"/>
         <Section title="Links úteis">
           <Links>
             <li>
