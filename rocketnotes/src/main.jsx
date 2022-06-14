@@ -5,13 +5,13 @@ import GlobalStyles from './styles/global'; // Pegando aquele CSS em que consta 
 
 import theme from './styles/theme'; // Importando as cores da aplicação
 
-import { Home } from './pages/Home'; // Improtando a página Details
+import { SignIn } from './pages/SignIn'; // Improtando a página Details
 
 ReactDOM.createRoot(document.getElementById('root')).render( // Função para renderizar e jogar como SPA lá no HTML
   <React.StrictMode>
     <ThemeProvider theme = { theme }> 
       <GlobalStyles />
-      <Home />
+      <SignIn />
     </ThemeProvider>
   </React.StrictMode>
 )
